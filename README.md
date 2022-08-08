@@ -52,7 +52,7 @@
 ![t test lot 2](https://user-images.githubusercontent.com/100237685/183484369-5f012035-b8b6-4e64-9b6f-a114e9b8c90e.png)
 
 - Since p-value > 0.05, we accept the null hypothesis which means there is no statistical difference between the observed sample mean and its presumed population mean.
-- The t-value in this case is positive, indicating the mean of this sample is slightly higher than the population mean (which is confirmed by looking at mean of x). There is some variance in this sample from the population but not enough to be signifigant.
+- The t-value in this case is positive, indicating the mean of this sample is slightly higher than the population mean (which is confirmed by looking at mean of x). There is some variance in this sample from the population but not enough to be significant.
 
 
 ### Lot 3
@@ -60,7 +60,7 @@
 
 - For Lot 3 p-value < 0.05, which means we **reject** the null hypothesis and there *is* a statistical difference between the observed sample mean and its presumed population mean.
 - This sample has the most variance of them all from the population data.
-- However, while on its own the variance is enough to statistically differentiate it, when added to the all plots sample set, it does not make a signifigant enough difference to affect the all plots p-value towards rejecting the null hypothesis. 
+- However, while on its own the variance is enough to statistically differentiate it, when added to the all plots sample set, it does not make a significant enough difference to affect the all plots p-value towards rejecting the null hypothesis. 
 
 
 
@@ -69,15 +69,15 @@
 *Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.*
 
 1. **What metric or metrics are you going to test?**
-- In addition to the metrics mentioned in the instructions, I would also add mpg, AWD, color options, intiror material, Bluetooth compatibility, bonus features (such as seat warmers, sunroofs, etc.), and dashboard technology (whether it's touch screen, big or small, etc.).
+- In addition to the metrics mentioned in the instructions, I would also add mpg, AWD, color options, interior material, Bluetooth compatibility, bonus features (such as seat warmers, sunroofs, etc.), and dashboard technology (whether it's touch screen, big or small, etc.).
 2. **What is the null hypothesis or alternative hypothesis?**
-- H0 = consumer expecations are met
+- H0 = consumer expectations are met
 - Ha = consumer expectations are either not met or exceeded
 3. **What statistical test would you use to test the hypothesis? And why?**
-- I would use a Two Sample t-Test because I would be testing each metric from MechaCar and the competitor company individualy against a consumer sentatmeint score for each metric to see if there is a differecne in the mean. If there is a signifigant difference, then you can check the varience and t-value to see if the difference is leaning towards a positive or negative sentament from the consumer. 
-- For example, if we know that consumers like between 10-15 color options, we can run a two -sample t-test with the number of color options from MechaCar (sample 1) and the number of color options from competitor comapny (sample 2). Depending on the p-value and the t-value, we'll be able to tell if there is a signifigant difference from the population (consumer) mean, and if there isn't that means the company meets consumer expectations, but if there is a difference we'd need to look at the t-value to see if it is negative or postive, which will tell us if the company exceeds or falls short of consumer expectations. 
+- I would use a Two Sample t-Test because I would be testing each metric from MechaCar and the competitor company individually against a consumer sentiment score for each metric to see if there is a difference in the mean. If there is a significant difference, then you can check the variance and t-value to see if the difference is leaning towards a positive or negative sentiment from the consumer. 
+- For example, if we know that consumers like between 10-15 color options, we can run a two -sample t-test with the number of color options from MechaCar (sample 1) and the number of color options from competitor company (sample 2). Depending on the p-value and the t-value, we'll be able to tell if there is a significant difference from the population (consumer) mean, and if there isn't that means the company meets consumer expectations, but if there is a difference we'd need to look at the t-value to see if it is negative or positive, which will tell us if the company exceeds or falls short of consumer expectations. 
 4. **What data is needed to run the statistical test?**
-- We would need sentatmint analysis from a consumer study for each of our variables
-- We would also need the data on each of the varibles from both MechaCar and any competitors they want to compare themsleves to. 
+- We would need sentiment analysis from a consumer study for each of our variables
+- We would also need the data on each of the variables from both MechaCar and any competitors they want to compare themselves to. 
 
 
