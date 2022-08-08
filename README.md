@@ -15,6 +15,8 @@
 
 
 
+
+
 ## Summary Statistics on Suspension Coils
 ![total summary](https://user-images.githubusercontent.com/100237685/183479889-5298a5f9-c354-4670-87b7-3798e7da7ce7.png)
 ![lot summary](https://user-images.githubusercontent.com/100237685/183479922-eef35c16-68fb-4a8d-bb5d-003f8f375b8f.png)
@@ -24,3 +26,38 @@
 - Lot 1 have a variance of ~0.98, making it the most consistent and reliable
 - Lot 2 has a variance of ~7.47, which isn't terrible but there will be some discrepancy
 - Lot 3 has a variance of ~170.29, which is way above the allowed variance levels
+
+
+
+
+## T-Tests on Suspension Coils
+
+
+### All Lots
+![t test all lots](https://user-images.githubusercontent.com/100237685/183484254-9f917583-ad8c-43d4-b062-2a8b0785efdc.png)
+
+-
+-
+
+
+
+### Lot 1
+![t test lot 1](https://user-images.githubusercontent.com/100237685/183484311-4bfeafb9-8d12-452e-9e8a-d4d3897c6e1a.png)
+
+-
+-
+
+
+### Lot 2
+![t test lot 2](https://user-images.githubusercontent.com/100237685/183484369-5f012035-b8b6-4e64-9b6f-a114e9b8c90e.png)
+
+-
+-
+
+
+### Lot 3
+![t test lot 3](https://user-images.githubusercontent.com/100237685/183484411-2922fafd-edcb-4362-a1d0-2b6a600d892b.png)
+
+-
+-
+
