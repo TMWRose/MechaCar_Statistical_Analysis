@@ -69,12 +69,15 @@
 *Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.*
 
 1. **What metric or metrics are you going to test?**
-- 
+- In addition to the metrics mentioned in the instructions, I would also add mpg, AWD, color options, intiror material, Bluetooth compatibility, bonus features (such as seat warmers, sunroofs, etc.), and dashboard technology (whether it's touch screen, big or small, etc.).
 2. **What is the null hypothesis or alternative hypothesis?**
-- 
+- H0 = consumer expecations are met
+- Ha = consumer expectations are either not met or exceeded
 3. **What statistical test would you use to test the hypothesis? And why?**
--
+- I would use a Two Sample t-Test because I would be testing each metric from MechaCar and the competitor company individualy against a consumer sentatmeint score for each metric to see if there is a differecne in the mean. If there is a signifigant difference, then you can check the varience and t-value to see if the difference is leaning towards a positive or negative sentament from the consumer. 
+- For example, if we know that consumers like between 10-15 color options, we can run a two -sample t-test with the number of color options from MechaCar (sample 1) and the number of color options from competitor comapny (sample 2). Depending on the p-value and the t-value, we'll be able to tell if there is a signifigant difference from the population (consumer) mean, and if there isn't that means the company meets consumer expectations, but if there is a difference we'd need to look at the t-value to see if it is negative or postive, which will tell us if the company exceeds or falls short of consumer expectations. 
 4. **What data is needed to run the statistical test?**
-- 
+- We would need sentatmint analysis from a consumer study for each of our variables
+- We would also need the data on each of the varibles from both MechaCar and any competitors they want to compare themsleves to. 
 
 
