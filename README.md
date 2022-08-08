@@ -36,28 +36,29 @@
 ### All Lots
 ![t test all lots](https://user-images.githubusercontent.com/100237685/183484254-9f917583-ad8c-43d4-b062-2a8b0785efdc.png)
 
--
--
+- Since p-value > 0.05, we accept the null hypothesis which means there is  no statistical difference between the observed sample mean and its presumed population mean.
+- However, as seen by the t-value and the mean of x, the all lots sample mean is lower than the population mean, indicating that all lots together have a higher variance from the population data. 
 
 
 
 ### Lot 1
 ![t test lot 1](https://user-images.githubusercontent.com/100237685/183484311-4bfeafb9-8d12-452e-9e8a-d4d3897c6e1a.png)
 
--
--
+- Since p-value > 0.05, we accept the null hypothesis which means there is no statistical difference between the observed sample mean and its presumed population mean.
+- In this instance, the t-value = 0 and the mean of x is exactly equal to the population mean, indicating that Lot 1 has the least amount of variance from the population data.
 
 
 ### Lot 2
 ![t test lot 2](https://user-images.githubusercontent.com/100237685/183484369-5f012035-b8b6-4e64-9b6f-a114e9b8c90e.png)
 
--
--
+- Since p-value > 0.05, we accept the null hypothesis which means there is no statistical difference between the observed sample mean and its presumed population mean.
+- The t-value in this case is positive, indicating the mean of this sample is slightly higher than the population mean (which is confirmed by looking at mean of x). There is some variance in this sample from the population but not enough to be signifigant.
 
 
 ### Lot 3
 ![t test lot 3](https://user-images.githubusercontent.com/100237685/183484411-2922fafd-edcb-4362-a1d0-2b6a600d892b.png)
 
--
--
+- For Lot 3 p-value < 0.05, which means we **reject** the null hypothesis and there *is* a statistical difference between the observed sample mean and its presumed population mean.
+- This sample has the most variance of them all from the population data.
+- However, while on its own the variance is enough to statistically differentiate it, when added to the all plots sample set, it does not make a signifigant enough difference to affect the all plots p-value towards rejecting the null hypothesis. 
 
